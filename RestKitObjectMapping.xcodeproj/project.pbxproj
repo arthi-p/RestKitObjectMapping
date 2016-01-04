@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D48C9D91C34745F00B772F8 /* Sample_Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D48C9D81C34745F00B772F8 /* Sample_Array.m */; };
 		6DBCB4C91C246AB800BF57F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB4C81C246AB800BF57F4 /* main.m */; };
 		6DBCB4CC1C246AB800BF57F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB4CB1C246AB800BF57F4 /* AppDelegate.m */; };
 		6DBCB4CF1C246AB800BF57F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB4CE1C246AB800BF57F4 /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		6DBCB4D71C246AB800BF57F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCB4D51C246AB800BF57F4 /* LaunchScreen.storyboard */; };
 		6DBCB4E21C246AB800BF57F4 /* RestKitObjectMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB4E11C246AB800BF57F4 /* RestKitObjectMappingTests.m */; };
 		6DBCB4ED1C246AB800BF57F4 /* RestKitObjectMappingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB4EC1C246AB800BF57F4 /* RestKitObjectMappingUITests.m */; };
+		6DBCB4FF1C246D8800BF57F4 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBCB4FE1C246D8800BF57F4 /* libRestKit.a */; };
+		6DBCB5011C246E1900BF57F4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBCB5001C246E1900BF57F4 /* SystemConfiguration.framework */; };
+		6DBCB5031C246E2100BF57F4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBCB5021C246E2100BF57F4 /* MobileCoreServices.framework */; };
+		6DBCB5051C246F3400BF57F4 /* Sample_JSON in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCB5041C246F3400BF57F4 /* Sample_JSON */; };
+		6DBCB5081C24B46500BF57F4 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCB5071C24B46500BF57F4 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D48C9D71C34745F00B772F8 /* Sample_Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_Array.h; sourceTree = "<group>"; };
+		6D48C9D81C34745F00B772F8 /* Sample_Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_Array.m; sourceTree = "<group>"; };
 		6DBCB4C41C246AB800BF57F4 /* RestKitObjectMapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestKitObjectMapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBCB4C81C246AB800BF57F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DBCB4CA1C246AB800BF57F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,13 @@
 		6DBCB4E81C246AB800BF57F4 /* RestKitObjectMappingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestKitObjectMappingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBCB4EC1C246AB800BF57F4 /* RestKitObjectMappingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestKitObjectMappingUITests.m; sourceTree = "<group>"; };
 		6DBCB4EE1C246AB800BF57F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBCB4FC1C246CF300BF57F4 /* Restkit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Restkit; path = RestKitObjectMapping/Restkit; sourceTree = "<group>"; };
+		6DBCB4FE1C246D8800BF57F4 /* libRestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRestKit.a; path = Restkit/libRestKit.a; sourceTree = "<group>"; };
+		6DBCB5001C246E1900BF57F4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6DBCB5021C246E2100BF57F4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6DBCB5041C246F3400BF57F4 /* Sample_JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sample_JSON; sourceTree = "<group>"; };
+		6DBCB5061C24B46500BF57F4 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		6DBCB5071C24B46500BF57F4 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBCB5031C246E2100BF57F4 /* MobileCoreServices.framework in Frameworks */,
+				6DBCB5011C246E1900BF57F4 /* SystemConfiguration.framework in Frameworks */,
+				6DBCB4FF1C246D8800BF57F4 /* libRestKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,10 @@
 		6DBCB4BB1C246AB800BF57F4 = {
 			isa = PBXGroup;
 			children = (
+				6DBCB5021C246E2100BF57F4 /* MobileCoreServices.framework */,
+				6DBCB5001C246E1900BF57F4 /* SystemConfiguration.framework */,
+				6DBCB4FE1C246D8800BF57F4 /* libRestKit.a */,
+				6DBCB4FC1C246CF300BF57F4 /* Restkit */,
 				6DBCB4C61C246AB800BF57F4 /* RestKitObjectMapping */,
 				6DBCB4E01C246AB800BF57F4 /* RestKitObjectMappingTests */,
 				6DBCB4EB1C246AB800BF57F4 /* RestKitObjectMappingUITests */,
@@ -102,9 +124,14 @@
 			isa = PBXGroup;
 			children = (
 				6DBCB4CA1C246AB800BF57F4 /* AppDelegate.h */,
+				6DBCB5041C246F3400BF57F4 /* Sample_JSON */,
+				6DBCB5061C24B46500BF57F4 /* Item.h */,
+				6DBCB5071C24B46500BF57F4 /* Item.m */,
 				6DBCB4CB1C246AB800BF57F4 /* AppDelegate.m */,
 				6DBCB4CD1C246AB800BF57F4 /* ViewController.h */,
 				6DBCB4CE1C246AB800BF57F4 /* ViewController.m */,
+				6D48C9D71C34745F00B772F8 /* Sample_Array.h */,
+				6D48C9D81C34745F00B772F8 /* Sample_Array.m */,
 				6DBCB4D01C246AB800BF57F4 /* Main.storyboard */,
 				6DBCB4D31C246AB800BF57F4 /* Assets.xcassets */,
 				6DBCB4D51C246AB800BF57F4 /* LaunchScreen.storyboard */,
@@ -245,6 +272,7 @@
 			files = (
 				6DBCB4D71C246AB800BF57F4 /* LaunchScreen.storyboard in Resources */,
 				6DBCB4D41C246AB800BF57F4 /* Assets.xcassets in Resources */,
+				6DBCB5051C246F3400BF57F4 /* Sample_JSON in Resources */,
 				6DBCB4D21C246AB800BF57F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBCB5081C24B46500BF57F4 /* Item.m in Sources */,
 				6DBCB4CF1C246AB800BF57F4 /* ViewController.m in Sources */,
+				6D48C9D91C34745F00B772F8 /* Sample_Array.m in Sources */,
 				6DBCB4CC1C246AB800BF57F4 /* AppDelegate.m in Sources */,
 				6DBCB4C91C246AB800BF57F4 /* main.m in Sources */,
 			);
@@ -411,8 +441,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Restkit/include/RestKit\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = RestKitObjectMapping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RestKitObjectMapping/Restkit",
+					"$(PROJECT_DIR)/Restkit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = arthi.codity.RestKitObjectMapping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,8 +462,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Restkit/include/RestKit\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = RestKitObjectMapping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RestKitObjectMapping/Restkit",
+					"$(PROJECT_DIR)/Restkit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = arthi.codity.RestKitObjectMapping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,6 +546,7 @@
 				6DBCB4F31C246AB800BF57F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DBCB4F41C246AB800BF57F4 /* Build configuration list for PBXNativeTarget "RestKitObjectMappingTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +555,7 @@
 				6DBCB4F61C246AB800BF57F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DBCB4F71C246AB800BF57F4 /* Build configuration list for PBXNativeTarget "RestKitObjectMappingUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +564,7 @@
 				6DBCB4F91C246AB800BF57F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
